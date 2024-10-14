@@ -44,12 +44,12 @@ A partir desse ponto, o servidor estará ativo e você poderá acessar a aplica�
 
 
 ## Ref:
-https://www.youtube.com/watch?v=eOEX09sfhpM
-https://www.geeksforgeeks.org/how-to-design-digital-clock-using-javascript/
-relógio https://codepen.io/ademilter/pen/nazxPX
-https://www.youtube.com/watch?v=zs1Nq2s_uy4
-https://github.com/VictorCardosoOl
-https://www.mywork.com.br/controle-de-ponto
+- https://www.youtube.com/watch?v=eOEX09sfhpM
+- https://www.geeksforgeeks.org/how-to-design-digital-clock-using-javascript/
+- https://codepen.io/ademilter/pen/nazxPX
+- https://www.youtube.com/watch?v=zs1Nq2s_uy4
+- https://github.com/VictorCardosoOl
+- https://www.mywork.com.br/controle-de-ponto
 
 
 
