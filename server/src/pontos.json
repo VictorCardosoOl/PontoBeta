@@ -1,0 +1,85 @@
+[
+  {
+    "data": "09/10/2024",
+    "nome": "Marcelo",
+    "categoria": "CLT",
+    "Entrada": "20:04:05",
+    "Café 1": "20:04:08",
+    "Retorno Café 1": "20:04:11",
+    "Almoço": "20:04:14",
+    "Retorno Almoço": "20:04:18",
+    "Café 2": "20:04:21",
+    "Retorno Café 2": "20:04:25",
+    "Saída": "20:04:29"
+  },
+  {
+    "data": "10/10/2024",
+    "nome": "Victor Cardoso Cunha",
+    "categoria": "CLT",
+    "Entrada": "21:21:27",
+    "Saída": "21:21:36",
+    "Café 1": "21:21:46",
+    "Café 2": "21:31:55"
+  },
+  {
+    "data": "10/10/2024",
+    "nome": "Victor C",
+    "categoria": "CLT",
+    "Entrada": "21:40:59",
+    "Almoço": "21:41:07",
+    "Café 1": "21:41:11",
+    "Retorno Café 2": "21:41:14"
+  },
+  {
+    "data": "11/10/2024",
+    "nome": "Marcelo",
+    "categoria": "CLT",
+    "Entrada": "09:49:39",
+    "Café 1": "09:54:23",
+    "Retorno Café 1": "",
+    "Almoço": "",
+    "Retorno Almoço": "",
+    "Café 2": "",
+    "Retorno Café 2": "",
+    "Saída": ""
+  },
+  {
+    "data": "11/10/2024",
+    "nome": "Victor Cardoso Cunha",
+    "categoria": "CLT",
+    "Entrada": "09:57:03",
+    "Café 1": "",
+    "Retorno Café 1": "09:56:55",
+    "Almoço": "",
+    "Retorno Almoço": "",
+    "Café 2": "",
+    "Retorno Café 2": "",
+    "Saída": ""
+  },
+  {
+    "data": "12/10/2024",
+    "nome": "Victor Cardoso Cunha",
+    "categoria": "CLT",
+    "Entrada": "14:58:10",
+    "Café 1": "",
+    "Retorno Café 1": "",
+    "Almoço": "",
+    "Retorno Almoço": "",
+    "Café 2": "",
+    "Retorno Café 2": "",
+    "Saída": ""
+  },
+  {
+    "data": "12/10/2024",
+    "nome": "Victor Cardoso",
+    "categoria": "CLT",
+    "Entrada": "",
+    "Café 1": "",
+    "Retorno Café 1": "",
+    "Almoço": "15:05:27",
+    "Retorno Almoço": "",
+    "Café 2": "",
+    "Retorno Café 2": "",
+    "Saída": ""
+  }
+]

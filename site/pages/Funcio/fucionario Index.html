@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/BetaPonto-main/site/assets/funcio/favicon.ico" type="image/x-icon">
+
+    <title>Funcionario Controle</title>
+
+    <link rel="stylesheet" href="fucionario style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <script src="fucionario script.js"></script>
+</head>
+<body>
+    <div class="back">
+        <h1>Controle de Ponto</h1>
+        <div class="header">
+            <div class="formulario">
+                <form id="pontoForm">
+                    <input class="caixa" type="text" id="nome" placeholder="Nome" required>
+
+                    <select class="caixa" id="tipo" required>
+                        <option value="">Selecionar Tipo</option>
+                        <option value="Entrada">Entrada</option>
+                        <option value="Café 1">Café 1</option>
+                        <option value="Retorno Café 1">Retorno Café 1</option>
+                        <option value="Almoço">Almoço</option>
+                        <option value="Retorno Almoço">Retorno Almoço</option>
+                        <option value="Café 2">Café 2</option>
+                        <option value="Retorno Café 2">Retorno Café 2</option>
+                        <option value="Saída">Saída</option>
+                    </select>
+
+                    
+                    <label class="labelHe"><input type="radio" name="categoria" value="CLT"> CLT</label>
+                    <label class="labelHe"><input type="radio" name="categoria" value="Estagio"> Estagiário</label>
+                    
+
+                    <button class="butao" type="submit" id="baterPonto">Bater Ponto</button>
+                </form>
+
+            </div>
+            
+            <div class="filtros">
+                <input class="caixa" type="text" id="filtroNome" placeholder="Filtrar por nome">
+                
+                <select class="caixa" id="mesFiltro">
+                    <option value="">Selecionar Mês</option>
+                    <option value="0">Janeiro</option>
+                    <option value="1">Fevereiro</option>
+                    <option value="2">Março</option>
+                    <option value="3">Abril</option>
+                    <option value="4">Maio</option>
+                    <option value="5">Junho</option>
+                    <option value="6">Julho</option>
+                    <option value="7">Agosto</option>
+                    <option value="8">Setembro</option>
+                    <option value="9">Outubro</option>
+                    <option value="10">Novembro</option>
+                    <option value="11">Dezembro</option>
+                </select>
+
+                
+                <select class="caixa" id="tipoColaboradorFiltro">
+                    <option value="">Regime de trabalho</option>
+                    <option value="CLT">CLT</option>
+                    <option value="Estagio">Estagiário</option>
+                </select>
+                </div>
+
+        </div>
+   
+        <table id="tabelaPontos" class="tabelaPontos">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Entrada</th>
+                    <th>Café 1</th>
+                    <th>Retorno Café 1</th>
+                    <th>Almoço</th>
+                    <th>Retorno Almoço</th>
+                    <th>Café 2</th>
+                    <th>Retorno Café 2</th>
+                    <th>Saída</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaBody">
+            </tbody>
+        </table>
+        
+        <div class="excel">
+            <input class="caixaEx" type="text" id="filtroNome1" placeholder="Filtrar por nome">
+            
+        
+            <label for="dataInicio" class="datel">Data Início:</label>
+    <input class="date" type="date" id="dataInicio1">
+
+    <label for="dataFim" class="datel">Data Fim:</label>
+    <input class="date" type="date" id="dataFim1">
+            
+            <select class="caixaEx" id="tipoColaboradorFiltro1">
+                <option value="">Regime de trabalho</option>
+                <option value="CLT">CLT</option>
+                <option value="Estagio">Estagiário</option>
+            </select>
+            
+            <button class="butaoEx" id="exportarExcel">Exportar para Excel</button>
+        </div>
+
+        <div id="pagination" class="pagination"></div>
+
+    </div>
+
+</body>
+</html>

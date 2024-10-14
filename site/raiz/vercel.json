@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "frontend/Funcio/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "frontend/Super/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/funcionario",
+      "dest": "/frontend/Funcio/index.html"
+    },
+    {
+      "src": "/supervisor",
+      "dest": "/frontend/Super/index.html"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}

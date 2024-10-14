@@ -1,0 +1,193 @@
+*{
+    box-sizing:border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(/BetaPonto-main/site/assets/wallpaper/S.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
+.back {
+    background-color: rgb(0 0 0 / 50%);
+}
+
+h1 {
+    color: rgba(255, 255, 255, 85%);
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid rgba(255, 255, 255, 50%);
+    padding: 8px;
+    width: 9.09%;
+    color: rgba(255, 255, 255, 85%);
+}
+
+td {
+    align-items: center;
+}
+th {
+    background-color: rgba(255, 255, 255, 50%);
+    color: rgb(0, 0, 0);
+}
+
+.tabelaPontos {
+    width: 100%; /* Ajuste conforme necessário */
+    border-collapse: collapse; /* Remove espaços entre as células */
+}
+
+.tabelaPontos th, .tabelaPontos td {
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Bordas para as células */
+    text-align: center; /* Centraliza o texto */
+}
+
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: rgba(0, 0, 0, 95%) !important;
+} 
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: rgba(0, 0, 0, 95%) !important;
+} 
+
+button:hover {
+    cursor: pointer;
+}
+
+input {
+    text-align: center;
+    }
+
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.labelHe {
+    color: rgba(255, 255, 255, 85%);
+    margin: 0.5rem;
+}
+
+.caixa {
+    color: rgba(0, 0, 0, 95%);
+    border-radius: 1rem;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 25%);
+    background-color: rgba(255, 255, 255, 50%);
+    margin-left: 0.5rem;
+}
+
+.butao {
+    color: rgba(0, 0, 0, 95%);
+    border: 1px solid rgba(255, 255, 255, 25%);
+    border-radius: 1rem;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 50%);
+    margin-left: 0.5rem;
+}
+
+.filtros {
+    margin-right: 0.5%;
+}
+
+
+
+
+
+
+.excel {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+    width: 55%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.datel {
+    color: rgba(255, 255, 255, 85%);
+    margin-left: 0.5rem;
+}
+
+.date {
+    color: rgba(0, 0, 0, 95%);
+    border-radius: 1rem;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 25%);
+    background-color: rgba(255, 255, 255, 50%);
+}
+
+.caixaEx {
+    color: rgba(0, 0, 0, 95%);
+    border-radius: 1rem;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 25%);
+    background-color: rgba(255, 255, 255, 50%);
+    margin-left: 0.5rem;
+}
+
+.butaoEx {
+    color: rgba(0, 0, 0, 95%);
+    border: 1px solid rgba(255, 255, 255, 25%);
+    border-radius: 1rem;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 50%);
+    margin-left: 0.5rem;
+}
+
+
+
+
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.pagination button {
+    margin-left: 2rem;
+    color: rgba(0, 0, 0, 95%);
+    border: 1px solid rgba(255, 255, 255, 25%);
+    border-radius: 1rem;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 50%);
+}
+
+.pagination button:hover {
+    background-color: rgba(127.5, 127.5, 127.5, 0.5);
+    color: rgba(255, 255, 255, 85%);
+    border: 1px solid rgba(255, 255, 255, 50%);
+}
+
+.pagination .page-active{
+    background-color: rgba(127.5, 127.5, 127.5, 0.5);
+    color: rgba(255, 255, 255, 85%);
+    border: 1px solid rgba(255, 255, 255, 50%);
+}
+
+#tabelaPontos {
+    width: 100%; /* Ajuste conforme necessário */
+    border-collapse: collapse; /* Remove espaços entre as células */
+}
+
+#tabelaPontos th, #tabelaPontos td {
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Bordas para as células */
+    text-align: center; /* Centraliza o texto */
+}
